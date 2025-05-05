@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>codeX</title>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(81, 80, 80);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CodeX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" aria-current="page" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Interview questions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html">Savvy</a></li>
+             
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Interview Questions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="ds.html" aria-label="Previous" style="color: rgb(81, 80, 80);">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#"
+          style=" background-color: rgb(81, 80, 80); color: aliceblue;">C</a></li>
+      <li class="page-item"><a class="page-link" href="cpp.html" style="color: rgb(81, 80, 80);">C++</a></li>
+      <li class="page-item"><a class="page-link" href="ds.html" style="color: rgb(81, 80, 80);">DSA</a></li>
+
+      <li class="page-item">
+        <a class="page-link" href="cpp.html" aria-label="Next" style="color: rgb(81, 80, 80);">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <h2 style="text-align: center;">C Programming Interview Questions - High-Level</h2>
+  <div class="container my-4">
+    <h4>1. What is the use of an extern storage specifier?</h4>
+    <p>The extern keyword is used to extend the visibility of the C variables and functions in the C language. Extern is
+      the short name for external. It is used when a particular file needs to access a variable from any other file.
+      Extern keyword increases the redundancy and variables with extern keyword are only declared not defined. By
+      default functions are visible throughout the program, so there is no need to declare or define extern functions.
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>2. What is the use of printf() and scanf() functions in C Programming language? Also, explain format specifiers.
+    </h4>
+    <p>Tprintf() function is used to print the value which is passed as the parameter to it on the console screen.<br>
+
+      <strong> Syntax:</strong><br>
+
+      <mark>(“%X”,variable_of_X_type);</mark><br><br>
+
+      scanf() method, reads the values from the console as per the data type specified.<br>
+
+      <strong>Syntax:</strong><br>
+
+      <mark>scanf(“%X”,&variable_of_X_type);</mark><br><br>
+
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>3. What is near, far, and huge pointers in C?</h4>
+    <p> <strong>Near Pointers:</strong> Near pointers are used to store 16-bit addresses only. Using the near pointer,
+      we can not store the address with a size greater than 16 bits. <br>
+      <strong> Far Pointers:</strong> A far pointer is a pointer of 32 bits size. However, information outside the
+      computer’s memory from the current segment can also be accessed. <br>
+      <strong>Huge Pointers:</strong>Huge pointer is typically considered a pointer of 32 bits size. But bits located
+      outside or stored outside the segments can also be accessed.
+    </p>
+  </div>
+ 
+  <div class="container my-4">
+    <h4>4. What is the difference between getc(), getchar(), getch() and getche().</h4>
+    <p> <strong>getc(): </strong>The function reads a single character from an input stream and returns an integer value (typically the ASCII value of the character) if it succeeds. On failure, it returns the EOF. <br>
+      <strong>getchar():</strong> Unlike getc(), gechar() can read from standard input; it is equivalent to getc(stdin). <br>
+      <strong>  getch(): </strong>It is a nonstandard function and is present in ‘conio.h’ header file which is mostly used by MS-DOS compilers like Turbo C. <br>
+        <strong>getche():</strong> It reads a single character from the keyboard and displays it immediately on the output screen without waiting for enter key. <br>
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4> 5. Write a Program to check whether a linked list is circular or not.</h4>
+   
+  </div>
+  <div class="container my-4">
+    <h4>6. Write a program to Merge two sorted linked lists.</h4>
+  </div>
+  <div class="container my-4">
+    <h4> 7. Write a Program to check whether a linked list is circular or not.</h4>
+   
+  </div>
+  <div class="container my-4">
+    <h4>8. Write a program to Merge two sorted linked lists.</h4>
+  </div>
+  <div class="container my-4">
+    <h4> 9. Write a Program to check whether a linked list is circular or not.</h4>
+   
+  </div>
+  <div class="container my-4">
+    <h4>10. Write a program to Merge two sorted linked lists.</h4>
+  </div>
+  <div class="container my-4">
+    <h4> 11. Write a Program to check whether a linked list is circular or not.</h4>
+   
+  </div>
+  <div class="container my-4">
+    <h4>12. Write a program to Merge two sorted linked lists.</h4>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

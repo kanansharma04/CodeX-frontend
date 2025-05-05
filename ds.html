@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>codeX</title>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(81, 80, 80);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CodeX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" aria-current="page" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Interview questions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html">Savvy</a></li>
+            
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="interview.html">Interview Questions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="cpp.html" aria-label="Previous"  style="color: rgb(81, 80, 80);">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="interview.html" style="color: rgb(81, 80, 80);">C</a></li>
+      <li class="page-item"><a class="page-link" href="cpp.html" style="color: rgb(81, 80, 80);">C++</a></li>
+      <li class="page-item"><a class="page-link" href="#" style=" background-color: rgb(81, 80, 80); color: aliceblue;"">DSA</a></li>
+     
+      <li class="page-item">
+        <a class="page-link" href="interview.html" aria-label="Next"  style="color: rgb(81, 80, 80);">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2 style="text-align: center;">decision-making Programming Interview Questions - High-Level</h2>
+  <div class="container my-4">
+    <h4>1. What is an asymptotic analysis of an algorithm?</h4>
+    <p>Asymptotic analysis of an algorithm defines the run-time performance as per its mathematical boundations. Asymptotic analysis helps us articulate the best case(Omega Notation, Ω), average case(Theta Notation, θ), and worst case(Big Oh Notation, Ο) performance of an algorithm.
+
+     
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>2. What is hashmap in data structure?</h4>
+    <p>Hashmap is a data structure that uses an implementation of a hash table data structure which allows access to data in constant time (O(1)) complexity if you have the key.
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>3. What is the requirement for an object to be used as key or value in HashMap?</h4>
+    <p>The key or value object that gets used in the hashmap must implement <strong>equals() and hashcode() </strong> method.
+      The hash code is used when inserting the key object into the map and the equals method is used when trying to retrieve a value from the map.
+    
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>4. What is the time complexity of basic operations get() and put() in HashMap class?</h4>
+    <p>The time complexity is O(1) assuming that the hash function used in the hash map distributes elements uniformly among the buckets
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>5. What is a deque data structure and its types?</h4>
+    <p>A deque can be thought of as an array of items, but with one important difference: Instead of pushing and popping items off the end to make room, deques are designed to allow items to be inserted at either end. This property makes deques well-suited for performing tasks such as keeping track of inventory, scheduling tasks, or handling large amounts of data.
+
+
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>6. What is a priority queue?</h4>
+    <p>Priority Queue is an abstract data type that is similar to a queue in that each element is assigned a priority value. The order in which elements in a priority queue are served is determined by their priority (i.e., the order in which they are removed). If the elements have the same priority, they are served in the order they appear in the queue.
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>7. What is graph data structure and its representations?</h4>
+    <p>A graph is a type of non-linear data structure made up of nodes and edges. The nodes are also known as vertices, and edges are lines or arcs that connect any two nodes in the graph.
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>8. What is virtual inheritance?</h4>
+    <p>Virtual inheritance is a technique that ensures only one copy of a base class’s member variables is inherited by
+      grandchild-derived classes. Or in simple terms, virtual inheritance is used when we are dealing with a situation
+      of multiple inheritances but want to prevent multiple instances of the same class from appearing in the
+      inheritance <br>
+      <strong>1. Adjacency Matrix:</strong> Adjacency Matrix is a two-dimensional array with the dimensions V x V, where V is the number of vertices in a graph. Representation is simpler to implement and adhere to. It takes O(1) time to remove an edge. Queries such as whether there is an edge from vertex 'u' to vertex 'v' are efficient and can be completed in O(1).<br>
+     <strong> 2. Adjacency List: </strong> In this method, each Node holds a list of Nodes that are directly connected to that vertex. Each node at the end of the list is connected with null values to indicate that it is the last node in the list. This saves space O(|V|+|E|). In the worst-case scenario, a graph can have C(V, 2) edges, consuming O(V^2) space. It is simpler to add a vertex. It takes the least amount of time to compute all of a vertex's neighbours.<br>
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>9. What is AVL tree data structure</h4>
+    <p>AVL trees are height balancing binary search trees named after their inventors Adelson, Velski, and Landis. The AVL tree compares the heights of the left and right subtrees and ensures that the difference is less than one. This distinction is known as the Balance Factor.<br>
+
+     <strong> <mark>BalanceFactor = height(left-subtree) − height(right-subtree)</mark></strong> 
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>10. Define Segment Tree data structure</h4>
+    <p>A segment Tree is a binary tree that is used to store intervals or segments. The Segment Tree is made up of nodes that represent intervals. Segment Tree is used when there are multiple range queries on an array and changes to array elements.
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4> 11. Define Trie data structure and its applications</h4>
+    <p>The word "Trie" is an abbreviation for "retrieval." Trie is a data structure that stores a set of strings as a sorted tree. Each node has the same number of pointers as the number of alphabet characters. It can look up a word in the dictionary by using its prefix. Assuming that all strings are formed from the letters 'a' to 'z' in the English alphabet, each trie node can have a maximum of 26 points.<br>
+
+      Trie is also referred to as the digital tree or the prefix tree. The key to which a node is connected is determined by its position in the Trie. Trie allows us to insert and find strings in O(L) time, where L is the length of a single word. This is clearly faster than BST. Because of how it is implemented, this is also faster than Hashing. There is no need to compute a hash function. There is no need to handle collisions (like we do in open addressing and separate chaining)<br>
+      
+      Another benefit of Trie is that we can easily print all words in alphabetical order, which is not easy with hashing. Trie can also perform prefix search (or auto-complete) efficiently.<br>
+      
+      
+    </p>
+  </div>
+  <div class="container my-4">
+    <h4>12. Define Red-Black Tree and its applications</h4>
+    <p>Red Black Trees are a type of self-balancing binary search tree. Rudolf Bayer invented it in 1972 and dubbed it "symmetric binary B-trees."<br>
+
+      A red-black tree is a Binary tree in which each node has a colour attribute, either red or black. By comparing the node colours on any simple path from the root to a leaf, red-black trees ensure that no path is more than twice as long as any other, ensuring that the tree is generally balanced.<br>
+      
+      Red-black trees are similar to binary trees in that they both store their data in two's complementary binary formats. However, red-black trees have one important advantage over binary trees: they are faster to access. Because red-black trees are so fast to access, they are often used to store large amounts of data.<br>
+      
+      Red-black trees can be used to store any type of data that can be represented as a set of values.<br>
+    </p>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
